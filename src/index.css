@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl !important;
+}
+
+.MuiButton-containedPrimary.MuiButton-contained.Mui-disabled {
+  color: #fff !important;
+  background-color: #abd4f7 !important;
+}

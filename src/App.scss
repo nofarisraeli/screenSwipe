@@ -1,0 +1,70 @@
+@import "./styles/colors.scss";
+@import "./styles/general.scss";
+
+.App {
+  text-align: center;
+  font-family: $main_font;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  position: fixed;
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.MuiTableCell-root,
+input,
+li,
+div,
+.MuiTypography-body1,
+select,
+textarea,
+button,
+.MuiChip-label,
+label {
+  font-family: $main_font;
+}
+
+// Turn icon to rtl
+.fa-rtl {
+  -webkit-transform: scalex(-1);
+  -moz-transform: scalex(-1);
+  -ms-transform: scalex(-1);
+  -o-transform: scalex(-1);
+  transform: scalex(-1);
+}
+
+.rounded-box {
+  border: solid 1px #dddede;
+  border-radius: 17px;
+}
+
+.shadow-box {
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(32, 33, 36, 0.28);
+}
+
+.close-btn {
+  direction: ltr;
+  position: absolute;
+  top: 0;
+  left: 1.2%;
+  padding-top: 9px;
+  display: inline-block;
+  font-weight: bold;
+}
